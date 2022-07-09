@@ -43,7 +43,7 @@ def largest_contiguous_subsum(list)
     end
     sum
 end
-# Time complexity is Quadratic O(n^2)
+# Time complexity is Polynomial O(n^3)
 
 def largest_contiguous_subsum_2(list)
     largest = list.min
